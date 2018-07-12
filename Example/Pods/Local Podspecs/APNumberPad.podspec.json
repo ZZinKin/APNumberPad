@@ -17,7 +17,7 @@
   },
   "social_media_url": "https://twitter.com/podkovyr",
   "platforms": {
-    "ios": "9.0"
+    "ios": "8.0"
   },
   "source_files": "APNumberPad/Classes/**/*",
   "resource_bundles": {

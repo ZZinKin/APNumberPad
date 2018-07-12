@@ -508,22 +508,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0E9A97EB00500F402ECAEBCD52807C32 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 247367BB32D7EDB6FB4FB392F86F0CDF /* APNumberPad.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/APNumberPad";
-				INFOPLIST_FILE = "Target Support Files/APNumberPad/ResourceBundle-APNumberPad-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = APNumberPad;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		17E7C6382C0AF833961C40CDEBAE0D29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 61764FB93B303FB7CE2C040597D20975 /* Pods-APNumberPad_Example.debug.xcconfig */;
@@ -654,6 +638,22 @@
 			};
 			name = Release;
 		};
+		90F684623AB6ABD4C29BE031180BE463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 247367BB32D7EDB6FB4FB392F86F0CDF /* APNumberPad.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/APNumberPad";
+				INFOPLIST_FILE = "Target Support Files/APNumberPad/ResourceBundle-APNumberPad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = APNumberPad;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		BD163EF64E29C2E64491924547F49C15 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 50109B1DD6F01BF1FBAE1BA68AFFC262 /* Pods-APNumberPad_Tests.release.xcconfig */;
@@ -688,7 +688,7 @@
 			};
 			name = Release;
 		};
-		D6FC808A9A4DD9E44BC237B42F365C5C /* Debug */ = {
+		BE266EE2845460B80AFF2198F171E8D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 247367BB32D7EDB6FB4FB392F86F0CDF /* APNumberPad.xcconfig */;
 			buildSettings = {
@@ -704,7 +704,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/APNumberPad/APNumberPad-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/APNumberPad/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/APNumberPad/APNumberPad.modulemap";
 				PRODUCT_MODULE_NAME = APNumberPad;
@@ -715,6 +715,22 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CCF274302850622C8B1F06D0A76FEFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 247367BB32D7EDB6FB4FB392F86F0CDF /* APNumberPad.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/APNumberPad";
+				INFOPLIST_FILE = "Target Support Files/APNumberPad/ResourceBundle-APNumberPad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = APNumberPad;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -751,23 +767,7 @@
 			};
 			name = Debug;
 		};
-		E763DCC15BE8F1183D22AB0C96771C86 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 247367BB32D7EDB6FB4FB392F86F0CDF /* APNumberPad.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/APNumberPad";
-				INFOPLIST_FILE = "Target Support Files/APNumberPad/ResourceBundle-APNumberPad-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = APNumberPad;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		F5B8A79397A5D54AB3DAFA4D9DB51FA1 /* Release */ = {
+		EFDC0739435A795C024A82E50D672DBF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 247367BB32D7EDB6FB4FB392F86F0CDF /* APNumberPad.xcconfig */;
 			buildSettings = {
@@ -783,7 +783,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/APNumberPad/APNumberPad-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/APNumberPad/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/APNumberPad/APNumberPad.modulemap";
 				PRODUCT_MODULE_NAME = APNumberPad;
@@ -880,8 +880,8 @@
 		D41968B6897EC86A0510F2D4C9D5CBC6 /* Build configuration list for PBXNativeTarget "APNumberPad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6FC808A9A4DD9E44BC237B42F365C5C /* Debug */,
-				F5B8A79397A5D54AB3DAFA4D9DB51FA1 /* Release */,
+				BE266EE2845460B80AFF2198F171E8D8 /* Debug */,
+				EFDC0739435A795C024A82E50D672DBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -889,8 +889,8 @@
 		DD2A75956C7DBFF74703B00A39E91855 /* Build configuration list for PBXNativeTarget "APNumberPad-APNumberPad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E763DCC15BE8F1183D22AB0C96771C86 /* Debug */,
-				0E9A97EB00500F402ECAEBCD52807C32 /* Release */,
+				CCF274302850622C8B1F06D0A76FEFDE /* Debug */,
+				90F684623AB6ABD4C29BE031180BE463 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
